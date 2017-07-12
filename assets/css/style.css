@@ -1,0 +1,636 @@
+.container-fluid {
+	padding: 0px;
+	margin: 0px;
+}
+
+#body {
+	background-size: 200px;
+}
+
+.jumbotron {
+	padding: 10px;
+}
+
+#logo {
+	padding: 0px;
+	margin: auto;
+	display: block;
+}
+
+#logoSmall {
+	display: none;
+}
+
+#logoXSmall {
+	display: none;
+}
+
+.row {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+#logoDisplay {
+	border-radius: 0px;
+	height: 100px;
+	width: 100%;
+}
+
+#signIn {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+.signingIn {
+	padding: 0px;
+	margin: 0px;
+}
+
+.warning {
+	border: solid red 1px !important;
+}
+
+#addWarning, #noEmail {
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 15px;
+ 	text-align: center;
+ 	color: red;
+ 	margin-bottom: 15px;
+ }
+
+#singInColumn {
+	padding: 0px;
+}
+
+.panel-default {
+	border-radius: 0px;
+	border: none;
+	margin: 20px 50px 20px 50px;
+}
+
+.panel-default>.panel-heading {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	border: none;
+	background-image: none;
+	background-color: #dddddd;
+}
+
+.panel-heading {
+	border: none;
+	background-image: none;
+}
+
+.panel-body {
+	background-color: #eeeeee;
+}
+
+.initialButtons {
+	width: 100%;
+	margin-top: 60px;
+	border: none;
+	height: 60px;
+	border-radius: 0px;
+	background: #c4c4c4;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: none;
+}
+
+#stagePanel {
+	min-height: 150px;
+	background-color: #eeeeee;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #333333;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#buttonHolder {
+	padding: 20px;
+}
+
+#choseDenial, #choseAnger, #choseMisery, #choseAffirmation, #choseGrooveOn {
+	width: 100%;
+	border: none;
+	height: 60px;
+	border-radius: 0px;
+	background: #c4c4c4;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: none;
+}
+
+#choseDenial:focus {
+	outline: none;
+	background-color: #8aa583;
+}
+
+#choseDenial:hover {
+	background-color: #5a6751;
+}
+
+#choseAnger:focus {
+	outline: none;
+	background-color: #a95959;
+}
+
+#choseAnger:hover {
+	background-color: #942827;
+}
+
+#choseMisery:focus {
+	outline: none;
+	background-color: #9fbec4;
+}
+
+#choseMisery:hover {
+	background-color: #39727a;
+}
+
+#choseAffirmation:focus {
+	outline: none;
+	background-color: #dfca94;
+}
+
+#choseAffirmation:hover {
+	background-color: #cab354;
+}
+
+#choseGrooveOn:focus {
+	outline: none;
+	background-color: #f7b45f;
+}
+
+#choseGrooveOn:hover {
+	background-color: #e0863f;
+}
+
+label {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+
+#recoveryEmail, #genderSelector, #ageSelector, #nameInput, #exInput, #emailInput {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border: 1px #c4c4c4 solid;
+	padding: 5px;
+	background-color: #ffffff;
+	font-family: 'Montserrat:300', sans-serif;
+	width: 100%;
+	height: 40px;
+	border-radius: 0px;
+}
+
+#startMonth, #startDay, #startYear {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	white-space: nowrap;
+	font-family: 'Montserrat:300', sans-serif;
+	width: 100%;
+	height: 40px;
+	border-radius: 0px;
+	border: solid 1px #c4c4c4;
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 5px;
+}
+
+option {
+	font-family: 
+	background-image: url(../images/dropDown.png);
+	max-height: 30px;
+	max-width: 30px;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right; 
+}
+
+#submitDetails {
+	margin: auto;
+	display: block;
+	border: none;
+	height: 40px;
+	border-radius: 0px;
+	background: #c4c4c4;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #333333;
+	text-shadow: none;
+}
+
+#submitDetails:hover{
+	background-color: #a7bd56;
+	color: #333333;
+	margin: auto;
+	display: block;
+}
+
+select {
+	border-radius: 0px;
+}
+
+iframe {
+	width: 100%;
+}
+
+#stageDisplaySongs {
+	padding: 0px;
+}
+
+#stageDisplaySongs {
+	background-color: #000000;
+}
+
+#quote {
+	color: #58595b;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	line-height: 100px;
+}
+
+#stageDisplayMoveOn {
+	padding: 40px;
+	height: 300px;
+}
+
+#poop {
+	display: block;
+	margin: auto;
+	position: relative;
+	width: 156px;
+}
+	
+@-webkit-keyframes wiggle
+{
+    0% {-webkit-transform: rotateZ(2deg);}
+    50% {-webkit-transform: rotateZ(-2deg);}
+    100% {-webkit-transform: rotateZ(2deg);}
+}
+
+@-moz-keyframes wiggle
+{
+    0% {-moz-transform: rotateZ(2deg);}
+    50% {-moz-transform: rotateZ(-2deg);}
+    100% {-moz-transform: rotateZ(2deg);}
+}
+
+@-o-keyframes wiggle
+{
+    0% {-o-transform: rotateZ(2deg);}
+    50% {-o-transform: rotateZ(-2deg);}
+    100% {-o-transform: rotateZ(2deg);}
+}
+
+@keyframes wiggle
+{
+    0% {transform: rotateZ(2deg);}
+    50% {transform: rotateZ(-2deg);}
+    100% {transform: rotateZ(2deg);}
+}
+
+.poopAnimate {
+    -webkit-animation: wiggle 0.5s ease infinite;
+    -moz-animation: wiggle 0.5s ease infinite;
+    -o-animation: wiggle 0.5s ease infinite;
+    animation: wiggle 0.5s ease infinite;
+}
+
+.bookImage {
+	float: left;
+	height: 300px;
+	width: 150px;
+	margin: 0 auto;
+}
+
+.denialBookTitles {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #5a6751;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.angerBookTitles {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #942827;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.miseryBookTitles {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #39727a;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.affirmationBookTitles {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #cab354;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.grooveBookTitles {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #df8f5d;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#stageDisplayMovies {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 140%;
+}
+
+#suggestions {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 140%;
+	text-align: center;
+}
+
+.suggestionTitles {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #df8f5d;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#spaEnvy {
+	width: 300px;
+	height: 200px;
+	margin: auto;
+	display: block;
+}
+
+#spaEnvySmall {
+	display: none;
+}
+
+#gymGold {
+	width: 230px;
+	height: 230px;
+	margin: auto;
+	display: block;
+}
+
+#gymGoldSmall {
+	display: none;
+}
+
+#matchGroove {
+	width: 300px;
+	height: 200px;
+	margin: auto;
+	display: block;
+}
+
+#matchGrooveSmall {
+	display: none;
+}
+
+.movieTitles {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #df8f5d;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#movieimage {
+	margin: auto;
+	display: block;
+}
+
+#movie1 {
+	text-align: center;
+}
+
+#movie2 {
+	text-align: center;
+}
+
+#movie3 {
+	text-align: center;
+}
+
+.bookTitles {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #df8f5d;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.bookImages {
+	width: 200px;
+	height: 300px;
+	margin: auto;
+	display: block;
+}
+
+#submitEmail {
+	margin: auto;
+	display: block;
+	border: none;
+	height: 40px;
+	border-radius: 0px;
+	background: #c4c4c4;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #333333;
+	text-shadow: none;
+}
+
+#submitEmail:hover{
+	background-color: #a7bd56;
+	color: #333333;
+	margin: auto;
+	display: block;
+}
+
+/*media query for tablet*/
+
+@media screen and (max-width: 1110px) and (min-width: 731px) {
+
+	#movieimage {
+		margin: auto;
+		display: block;
+		width: 200px;
+	}
+
+	#spaEnvy {
+		display: none;
+	}
+
+	#spaEnvySmall {
+		margin: auto;
+		display: block;
+	}
+	
+	#gymGold {
+		display: none;
+	}
+
+	#gymGoldSmall {
+		margin: auto;
+		display: block;
+	}
+
+	#matchGroove {
+		display: none;
+	}
+
+	#matchGrooveSmall {
+		margin: auto;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 730px) and (min-width: 476px) {
+
+	#logo {
+		display: none;
+	}
+
+	#logoXSmall {
+		display: none;
+	}
+
+	#logoSmall {
+		padding: 0px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 13px;
+		margin-bottom: 13px;
+		display: block;
+	}
+
+	#movieimage {
+		margin: auto;
+		display: block;
+		width: 200px;
+	}
+
+	#spaEnvy {
+		display: none;
+	}
+
+	#spaEnvySmall {
+		margin: auto;
+		display: block;
+	}
+
+	#gymGold {
+		display: none;
+	}
+	
+	#gymGoldSmall {
+		margin: auto;
+		display: block;
+	}
+
+	#matchGroove {
+		display: none;
+	}
+
+	#matchGrooveSmall {
+		margin: auto;
+		display: block;
+	}
+}
+
+/*media query for phone*/
+
+@media screen and (max-width: 475px) and (min-width: 0px) {
+
+	#logo {
+		display: none;
+	}
+
+	#logoSmall {
+		display: none;
+	}
+
+	#logoXSmall {
+		padding: 0px;
+		margin: auto;
+		display: block;
+	}
+
+	#movieimage {
+		margin: auto;
+		display: block;
+		width: 200px;
+	}
+
+	#quote {
+		color: #58595b;
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 40px;
+		line-height: 100px;
+	}
+
+	#spaEnvy {
+		display: none;
+	}
+
+	#spaEnvySmall {
+		margin: auto;
+		display: block;
+	}
+
+	#gymGold {
+		display: none;
+	}
+	
+	#gymGoldSmall {
+		margin: auto;
+		display: block;
+	}
+
+	#matchGroove {
+		display: none;
+	}
+
+	#matchGrooveSmall {
+		margin: auto;
+		display: block;
+	}
+}
